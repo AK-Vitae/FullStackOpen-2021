@@ -16,7 +16,7 @@ Chain of events:
 
 ![](./0.5.png)
 
-## 0.5
+## 0.6
 
 User creates a new note using the single page version of the app (https://studies.cs.helsinki.fi/exampleapp/spa).
 
