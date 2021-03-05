@@ -2,11 +2,11 @@
 
 ## 0.4
 
-User creates a new note on page https://studies.cs.helsinki.fi/exampleapp/notes by writing something into the text field and clicking the *submit* button.
+User creates a new note on page https://studies.cs.helsinki.fi/exampleapp/notes by writing something into the text field and clicking the _submit_ button.
 
 Chain of events:
 
-![](./Exercise 0.4.png)
+![](./0.4.png)
 
 ## 0.5
 
@@ -14,7 +14,7 @@ User goes to the [single page app](https://fullstackopen.com/en/part0/fundamenta
 
 Chain of events:
 
-![](./Exercise 0.5.png)
+![](./0.5.png)
 
 ## 0.5
 
@@ -22,5 +22,4 @@ User creates a new note using the single page version of the app (https://studie
 
 Chain of events:
 
-![](./Exercise 0.6.png)
-
+![](./0.6.png)
