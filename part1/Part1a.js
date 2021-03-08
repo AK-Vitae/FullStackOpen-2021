@@ -19,7 +19,7 @@ const Hi = (props) => {
   );
 };
 
-const Notes = () => {
+const Part1a = () => {
   const name = "Peter";
   const age = 10;
 
@@ -34,4 +34,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default Part1a;

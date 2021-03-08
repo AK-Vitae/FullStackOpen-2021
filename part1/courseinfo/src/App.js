@@ -1,47 +1,8 @@
 import React from "react";
-
-const Header = (props) => {
-  return (
-    <>
-      <h1>{props.course}</h1>
-    </>
-  );
-};
-
-function Content(props) {
-  return (
-    <div>
-      <Part
-        part={props.exercises.part1}
-        exercise={props.exercises.exercises1}
-      />
-      <Part
-        part={props.exercises.part2}
-        exercise={props.exercises.exercises2}
-      />
-      <Part
-        part={props.exercises.part3}
-        exercise={props.exercises.exercises3}
-      />
-    </div>
-  );
-}
-
-function Total(props) {
-  return (
-    <p>
-      Number of exercises{" "}
-      {props.total.exercises1 + props.total.exercises2 + props.total.exercises3}
-    </p>
-  );
-}
-function Part(props) {
-  return (
-    <p>
-      {props.part} {props.exercise}
-    </p>
-  );
-}
+// Import components
+import Content from "../src/components/Content";
+import Total from "../src/components/Total";
+import Header from "../src/components/Header";
 
 const App = () => {
   const course = "Half Stack application development";
