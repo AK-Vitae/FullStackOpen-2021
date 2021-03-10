@@ -36,3 +36,63 @@ console.log(first, second);
 console.log(rest);
 
 / * OBJECTS * /;
+// Object Literals
+const object1 = {
+  name: "AK",
+  age: 24,
+  education: "BS",
+};
+
+const object2 = {
+  name: "Full Stack web application development",
+  level: "intermediate studies",
+  size: 5,
+};
+
+const object3 = {
+  name: {
+    first: "John",
+    last: "Smith",
+  },
+  grades: ["A", "A", "B+", "C"],
+  department: "Rutgers University",
+};
+
+// Referencing using dot notation
+console.log(object3.grades[2]);
+// Referencing using brackets
+const fieldName = "age";
+console.log(object1[fieldName]);
+// Adding properties to object
+object1.address = "USA";
+console.log(object1.address);
+object1["favorite number"] = 1;
+console.log(object1["favorite number"]);
+
+// Object methods
+var person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+const fullName = person.fullName(); // Need the () or it will return function definition
+console.log(fullName);
+
+/ * FUNCTIONS * /;
+const sum = (p1, p2) => {
+  console.log(p1);
+  console.log(p2);
+  return p1 + p2;
+};
+const result = sum(1, 5);
+console.log(result);
+
+let square = (p) => {
+  console.log(p);
+  return p * p;
+};
+// Shorter function syntax
+square = (p) => p * p;
