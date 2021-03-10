@@ -1,12 +1,12 @@
 import React from "react";
 
-function Total(props) {
+const Total = ({ parts }) => {
   return (
     <p>
       Number of exercises{" "}
-      {props.total.exercises1 + props.total.exercises2 + props.total.exercises3}
+      {parts[0].exercises + parts[1].exercises + parts[2].exercises}
     </p>
   );
-}
+};
 
 export default Total;
