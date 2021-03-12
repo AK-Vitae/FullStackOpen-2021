@@ -77,9 +77,13 @@ var person = {
   fullName: function () {
     return this.firstName + " " + this.lastName;
   },
+  greet: function () {
+    console.log("hello, my name is " + this.firstName);
+  },
 };
 const fullName = person.fullName(); // Need the () or it will return function definition
 console.log(fullName);
+person.greet();
 
 / * FUNCTIONS * /;
 const sum = (p1, p2) => {
@@ -96,3 +100,20 @@ let square = (p) => {
 };
 // Shorter function syntax
 square = (p) => p * p;
+
+/ * CLASSES * /;
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  greet() {
+    console.log("hello, my name is " + this.name);
+  }
+}
+
+const roger = new Person("Roger Smith", 25);
+roger.greet();
+
+const mary = new Person("Mary Sue", 44);
+mary.greet();
